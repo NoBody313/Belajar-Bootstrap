@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_NoBody313_Belajar_Bootstrap_1703742283117-push-trigger-input-set
+  identifier: Build_NoBody313_Belajar_Bootstrap_1703742283117pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_NoBody313_Belajar_Bootstrap_1703742283117
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
